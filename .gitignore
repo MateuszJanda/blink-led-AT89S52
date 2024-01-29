@@ -3,7 +3,6 @@
 at89x52.h
 
 *.asm
-*.ihx
 *.lk
 *.lst
 *.map
