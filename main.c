@@ -1,11 +1,11 @@
 #include <at89x52.h>
 
-void init(void);
+void startup(void);
 void delay(void);
 
 void main(void)
 {
-    init();
+    startup();
 
     while (1) {
         P1_1 = 1;
@@ -25,7 +25,7 @@ void main(void)
     }
 }
 
-void init(void)
+void startup(void)
 {
     for (int i = 0; i < 3; i++) {
         P1_1 = 0;
