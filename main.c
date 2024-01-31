@@ -42,7 +42,7 @@ void startup(void)
 
 void delay(void)
 {
-    for (int x = 0; x < 200; x++) {
-        for (int y = 0; y < 200; y++) { }
+    for (int x = 0; x < 1000; x++) {
+        for (int y = 0; y < 1275; y++) { }
     }
 }
