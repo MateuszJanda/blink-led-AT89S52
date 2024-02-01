@@ -1,10 +1,22 @@
+# Setup
+
 ```bash
-sudo apt install sdcc
+$ sudo apt install sdcc make
+$ make
 ```
 
-```
-avrdude -C AVR8051.conf -c stk500v1 -P /dev/ttyACM0 -b 19200 -p AT89S52 -U flash:w:"main.ihx":a
+## Upload flash
+
+```bash
+avrdude -C avrdude-AT89S52.conf -c stk500v1 -P /dev/ttyACM0 -b 19200 -p AT89S52 -U flash:w:"main.ihx":a
 ```
 
-## Links
-- https://ww1.microchip.com/downloads/en/DeviceDoc/doc1919.pdf
+## Download flash (not tested)
+
+```bash
+avrdude -C avrdude-AT89S52.conf -c stk500v1 -P /dev/ttyACM0 -b 19200 -p AT89S52 -D -U flash:r:"flash.bin":r
+```
+
+# References
+- [8-bit Microcontroller with 8K Bytes In-System Programmable Flash AT89S52](https://ww1.microchip.com/downloads/en/DeviceDoc/doc1919.pdf)
+- Vooi Yap. [Programming the AT89S52 Using Arduino Uno](https://www.youtube.com/watch?v=qzqSjv65ubQ)
