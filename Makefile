@@ -1,4 +1,4 @@
-.PHONY: all build img clean
+.PHONY: all build clean
 
 all: build
 
