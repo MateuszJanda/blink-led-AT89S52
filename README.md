@@ -1,4 +1,8 @@
-# Setup
+# About
+
+Blinking LEDs using Atmel AT89S52.
+
+## Setup
 
 ```bash
 $ sudo apt install sdcc make
@@ -8,13 +12,13 @@ $ make
 ## Upload flash
 
 ```bash
-avrdude -C avrdude-AT89S52.conf -c stk500v1 -P /dev/ttyACM0 -b 19200 -p AT89S52 -U flash:w:"main.ihx":a
+$ avrdude -C avrdude-AT89S52.conf -c stk500v1 -P /dev/ttyACM0 -b 19200 -p AT89S52 -U flash:w:"main.ihx":a
 ```
 
 ## Download flash
 
 ```bash
-avrdude -C avrdude-AT89S52.conf -c stk500v1 -P /dev/ttyACM0 -b 19200 -p AT89S52 -D -U flash:r:"flash.bin":r
+$ avrdude -C avrdude-AT89S52.conf -c stk500v1 -P /dev/ttyACM0 -b 19200 -p AT89S52 -D -U flash:r:"flash.bin":r
 ```
 
 # References
