@@ -9,6 +9,10 @@ $ sudo apt install sdcc make
 $ make
 ```
 
+In Arduino IDE (2.3.0):
+- File | Examples | 11.ArduinoISP | ArduinoISP
+- Tools | Programmer | Arduino as ISP
+
 ## Upload flash
 
 ```bash
