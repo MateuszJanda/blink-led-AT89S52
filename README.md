@@ -1,6 +1,6 @@
 # About
 
-Blinking LEDs using Atmel AT89S52.
+Arduino as ISP (In-System Programmer) for Atmel AT89S52 to blink LEDs.
 
 ## Setup
 
