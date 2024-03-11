@@ -3,7 +3,7 @@
 Blinking LEDs using Atmel AT89S52. Arduino Uno R3 was used as programmer.
 
 <p align="center">
-<img src="./gallery/blink_leds.jpg" width="600"/>
+<img src="./gallery/blink_leds.jpg" width="650"/>
 </p>
 
 ## Setup

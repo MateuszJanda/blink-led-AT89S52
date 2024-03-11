@@ -10,3 +10,6 @@ at89x52.h
 *.rel
 *.rst
 *.sym
+
+*.bin
+*.hex
