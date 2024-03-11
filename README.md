@@ -1,6 +1,12 @@
 # About
 
-Arduino as ISP (In-System Programmer) for Atmel AT89S52 to blink LEDs.
+Blinking LEDs using Atmel AT89S52. Arduino Uno R3 was used as programmer.
+
+<!-- <p align="center">
+<img src="./gallery/counter_7seg.png"/>
+</p> -->
+
+![](./gallery/blink_leds.jpg =x250)
 
 ## Setup
 
